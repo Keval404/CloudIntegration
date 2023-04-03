@@ -12,7 +12,7 @@ const Events = () => {
 
   return (
     <>
-        <div class="md:container md:mx-auto">
+        <div class="md:container md:mx-auto my-5">
         <h2 class="text-">Pipelines</h2>
 
         <table class="w-full table-auto border-collapse w-full rounded-tl-2xl">
