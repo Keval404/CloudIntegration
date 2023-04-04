@@ -35,9 +35,9 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="rounded-full h-16"
+                    className="rounded-full h-14"
                     height={1}
-                    src="logo.png"
+                    src="logo_new.jpeg"
                     alt="Your Company"
                   />
                 </div>
