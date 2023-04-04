@@ -85,6 +85,7 @@ const initialEdges = [
     id: 'e1-2',
     source: '2',
     target: '5',
+    animated: true,
   },
   {
     id: 'e1-2',
@@ -100,6 +101,7 @@ const initialEdges = [
     id: 'e1-2',
     source: '5',
     target: '6',
+    animated: true,
   },
 ];
 
