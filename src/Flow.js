@@ -103,10 +103,10 @@ const Flow = () => {
     <ReactFlow
       nodes={initialNodes}
       edges={initialEdges}
-      // onNodesChange={onNodesChange}
-      // onEdgesChange={onEdgesChange}
-      // onNodeDrag={onNodeDrag}
-      // onNodeDragStop={onNodeDragStop}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      onNodeDrag={onNodeDrag}
+      onNodeDragStop={onNodeDragStop}
       onConnect={onConnect}
       fitView
     >
