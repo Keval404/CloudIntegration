@@ -15,18 +15,92 @@ const nodeDefaults = {
 };
 
 const initialNodes = [
-  { id: '1', position: { x: 200, y: 50}, data: { label: '1' } },
-  { id: '2', position: { x: 400, y: 0 }, data: { label: '2' } },
-  { id: '3', position: { x: 400, y: 100 }, data: { label: '3' } },
-  { id: '4', position: { x: 600, y: 50 }, data: { label: '4' } },
-  { id: '5', position: { x: 800, y: 50 }, data: { label: '5' } },
+  {
+    id: '1',
+    position: { x: 0, y: 0 },
+    data: {
+      label: '⬛️',
+    },
+    ...nodeDefaults,
+  },
+  {
+    id: '2',
+    position: { x: 250, y: -100 },
+    data: {
+      label: '🟩',
+    },
+    ...nodeDefaults,
+  },
+  {
+    id: '3',
+    position: { x: 250, y: 0 },
+    data: {
+      label: '🟧',
+    },
+    ...nodeDefaults,
+  },
+  {
+    id: '4',
+    position: { x: 250, y: 100 },
+    data: {
+      label: '🟦',
+    },
+    ...nodeDefaults,
+  },
+  {
+    id: '5',
+    position: { x: 500, y: 0 },
+    data: {
+      label: '🟦',
+    },
+    ...nodeDefaults,
+  },
+  {
+    id: '6',
+    position: { x: 750, y: 0 },
+    data: {
+      label: '🟦',
+    },
+    ...nodeDefaults,
+  },
 ];
 
-const initialEdges = [{ id: 'e1-2', source: '1', target: '2' },
-{ id: 'e1-2', source: '1', target: '3' },
-{ id: 'e1-2', source: '2', target: '4' },
-{ id: 'e1-2', source: '3', target: '4' },
-{ id: 'e1-2', source: '4', target: '5' }];
-
+const initialEdges = [
+  {
+    id: 'e1-2',
+    source: '1',
+    target: '2',
+  },
+  {
+    id: 'e1-3',
+    source: '1',
+    target: '3',
+  },
+  {
+    id: 'e1-2',
+    source: '1',
+    target: '4',
+  },
+  {
+    id: 'e1-2',
+    source: '2',
+    target: '5',
+  },
+  {
+    id: 'e1-2',
+    source: '3',
+    target: '5',
+  },
+  {
+    id: 'e1-2',
+    source: '4',
+    target: '5',
+  },
+  {
+    id: 'e1-2',
+    source: '5',
+    target: '6',
+  },
+];
 
 export { initialEdges, initialNodes };

@@ -4,7 +4,6 @@ import {Pipelines} from './pipelines.js'
 const Events = () => {
   
   const [data, setData] = useState(Pipelines)
-  console.log(data);
 
   return (
     <>
