@@ -99,6 +99,7 @@ const Flow = () => {
     [getClosestEdge]
   );
 
+
   return (
     <ReactFlow
       nodes={initialNodes}
@@ -108,6 +109,9 @@ const Flow = () => {
       onNodeDrag={onNodeDrag}
       onNodeDragStop={onNodeDragStop}
       onConnect={onConnect}
+      elementsSelectable={false}
+      panOnScroll={false}
+
       fitView
     >
       <Background variant={BackgroundVariant.Cross} gap={50} />
