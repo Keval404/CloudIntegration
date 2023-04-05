@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie";
 
 import * as location from "../1055-world-locations.json";
-import * as success from "../1127-success.json";
+// import * as success from "../1127-success.json";
 
 const defaultOptions1 = {
   loop: true,
@@ -16,7 +16,7 @@ const defaultOptions1 = {
 const defaultOptions2 = {
   loop: true,
   autoplay: true,
-  animationData: success.default,
+  animationData: false,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },

@@ -6,7 +6,7 @@ import { initialEdges, initialNodes } from './nodes-and-edges';
 const Logs = () => {
   return (
     <>
-        <div style={{ width: '80vw', height: '50vh' }}>
+        <div style={{ width: '50vw', height: '50vh' }}>
             <ReactFlow
               nodes={initialNodes}
               edges={initialEdges}

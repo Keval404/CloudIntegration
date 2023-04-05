@@ -21,11 +21,11 @@ const Events = ({showFlow ,setShowFlow}) => {
 
   return (
     <>
-        <div class="md:container md:mx-auto">
-        <h2 class="text-">Pipelines</h2>
-
-        <table class="w-full table-auto border-collapse w-full rounded-tl-2xl">
-        <thead class = "bg-gray-50 border-b-2 border-gray-200 ">
+        <div class="">
+          <br>
+          </br>
+        <table class="w- table-auto border-collapse w-full rounded-tl-2xl">
+        <thead class = "bg-gray-50 border-b-2 border-gray-200">
           <tr>
             <th class = "p-3 text-sm font-semibold tracking-wide text">DAG</th>
             <th class = "p-3 text-sm font-semibold tracking-wide text">owner</th>

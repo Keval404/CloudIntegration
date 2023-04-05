@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 3200); // change 5000 to the desired duration in milliseconds
+    }, 2200); // change 5000 to the desired duration in milliseconds
     return () => clearTimeout(timer);
   }, []);
 
@@ -25,7 +25,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setUnvisible(true);
-    }, 3200); // change 5000 to the desired duration in milliseconds
+    }, 2200); // change 5000 to the desired duration in milliseconds
     return () => clearTimeout(timer);
   }, []);
   
