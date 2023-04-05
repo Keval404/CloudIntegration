@@ -23,9 +23,9 @@ const Dropdown = () => {
                             return (
                                 <>
                                     <div className='flex w-full justify-between hover:bg-white text-white hover:text-black rounded-r-lg p-4 border-l-transparent ' key={i}>
-                                        <h3>{item.id}</h3>
-                                        <h3>{item.email}</h3>
-                                        <h3>{item.name}</h3>
+                                        <h3>{item.configuration}</h3>
+                                        {/* <h3>{item.}</h3>
+                                        <h3>{item.name}</h3> */}
                                     </div>  
                                 </>
                             )

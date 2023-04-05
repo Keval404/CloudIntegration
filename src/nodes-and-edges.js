@@ -5,7 +5,7 @@ const nodeDefaults = {
   targetPosition: Position.Left,
   style: {
     borderRadius: '100%',
-    backgroundColor: '#fff',
+    backgroundColor: '#34b4eb',
     width: 50,
     height: 50,
     display: 'flex',
@@ -51,7 +51,7 @@ const initialNodes = [
     id: '5',
     position: { x: 500, y: 0 },
     data: {
-      label: '🟦',
+      label: '⬛️',
     },
     ...nodeDefaults,
   },
@@ -59,7 +59,7 @@ const initialNodes = [
     id: '6',
     position: { x: 750, y: 0 },
     data: {
-      label: '🟦',
+      label: '⬛️',
     },
     ...nodeDefaults,
   },
