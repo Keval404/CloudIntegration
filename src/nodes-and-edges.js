@@ -19,7 +19,7 @@ const initialNodes = [
     id: '1',
     position: { x: 0, y: 0 },
     data: {
-      label: '⬛️',
+      label: 'Stage 1',
     },
     ...nodeDefaults,
   },
@@ -27,7 +27,7 @@ const initialNodes = [
     id: '2',
     position: { x: 250, y: -100 },
     data: {
-      label: '🟩',
+      label: 'Stage 2',
     },
     ...nodeDefaults,
   },
@@ -35,7 +35,7 @@ const initialNodes = [
     id: '3',
     position: { x: 250, y: 0 },
     data: {
-      label: '🟧',
+      label: 'Stage 3',
     },
     ...nodeDefaults,
   },
@@ -43,7 +43,7 @@ const initialNodes = [
     id: '4',
     position: { x: 250, y: 100 },
     data: {
-      label: '🟦',
+      label: 'Stage 4',
     },
     ...nodeDefaults,
   },
@@ -51,7 +51,7 @@ const initialNodes = [
     id: '5',
     position: { x: 500, y: 0 },
     data: {
-      label: '⬛️',
+      label: 'Stage 5',
     },
     ...nodeDefaults,
   },
@@ -59,7 +59,7 @@ const initialNodes = [
     id: '6',
     position: { x: 750, y: 0 },
     data: {
-      label: '⬛️',
+      label: 'Stage 6',
     },
     ...nodeDefaults,
   },
