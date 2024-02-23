@@ -21,14 +21,9 @@ const Events = ({showFlow ,setShowFlow}) => {
 
   return (
     <>
-<<<<<<< HEAD
-        <br />
-        
-=======
         <div class="md:container md:mx-auto my-5">
         <h2 class="text-">Pipelines</h2>
 
->>>>>>> eab23e945bd9de588c25337218aba1b19aeb97f2
         <table class="w-full table-auto border-collapse w-full rounded-tl-2xl">
         <thead class = "bg-gray-50 border-b-2 border-gray-200 ">
           <tr>
@@ -91,7 +86,7 @@ const Events = ({showFlow ,setShowFlow}) => {
       </table>
       {showFlow === true && <Logs/>}
       {showFlow === true && <Dropdown/>}
-      {/* </div> */}
+      </div>
       
     </>
   )
